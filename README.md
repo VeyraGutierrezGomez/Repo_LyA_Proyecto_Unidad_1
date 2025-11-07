@@ -91,19 +91,19 @@ Puedes ejecutar el programa de dos maneras:
 
 ## Funcionamiento general
 
-1. **Ventana de Inicio:**
+* **Ventana de Inicio:**
    El usuario elige si desea un vuelo **nacional o internacional**.
 
-2. **Selección de Origen y Destino:**
+* **Selección de Origen y Destino:**
    Se muestran menús desplegables con ciudades según el tipo de vuelo.
 
-3. **Visualización de Mapa:**
+* **Visualización de Mapa:**
 
    * Se dibuja el **grafo de aeropuertos** con sus conexiones y tiempos.
    * Se aplica **Bellman-Ford** para hallar la ruta más corta.
    * Se anima un **avión** siguiendo el camino óptimo.
 
-4. **Comparación de Algoritmos:**
+* **Comparación de Algoritmos:**
    Al cerrar la ventana del mapa, el sistema:
 
    * Ejecuta **Bellman-Ford** y **Dijkstra**.
@@ -131,7 +131,6 @@ El programa utiliza **Tkinter** y se compone de tres ventanas principales:
 ## Autores
 
 Proyecto académico desarrollado por:
-
 * Rubi Maria Cobos Ramos
 * Ingridh Maricela Gracia Flores
 * Veyra Maria Gutierrez Gomez
