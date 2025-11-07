@@ -7,6 +7,9 @@ import time
 import heapq
 from copy import deepcopy
 
+# --------------------------------------------------
+# Función para centrar una ventana en la pantalla
+# --------------------------------------------------
 def centrar_ventana(ventana, ancho, alto):
     ventana.update_idletasks()
     x = (ventana.winfo_screenwidth() // 2) - (ancho // 2)
@@ -14,20 +17,22 @@ def centrar_ventana(ventana, ancho, alto):
     ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
 
 
-# ----------------------------
-# Clase Grafo (listas adyacencia)
-# ----------------------------
+# --------------------------------------------------
+# Clase Grafo: Representa un grafo usando listas de adyacencia
+# --------------------------------------------------
 class Grafo:
     def __init__(self):
-        # { nodo: [(destino, peso), ...] }
+        # Diccionario: { nodo: [(destino, peso), ...] }
         self.adyacencia = {}
 
     def agregar_arista(self, origen, destino, peso):
+        # Agrega una arista dirigida al grafo con su peso
         if origen not in self.adyacencia:
             self.adyacencia[origen] = []
         self.adyacencia[origen].append((destino, peso))
 
     def obtener_vertices(self):
+        # Obtiene una lista con todos los nodos del grafo
         vertices = set(self.adyacencia.keys())
         for destinos in self.adyacencia.values():
             for v, _ in destinos:
