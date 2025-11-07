@@ -37,10 +37,10 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
 
 ### 1. Instalar Python
 
-1.1 Descarga **Python 3.13** desde la página oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-1.2 Durante la instalación, **marca la casilla** “Add Python to PATH”.
-1.3 Espera a que termine la instalación.
-1.4 Verifica que esté instalado correctamente abriendo **PowerShell o CMD** y escribiendo:
+* 1.1 Descarga **Python 3.13** desde la página oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* 1.2 Durante la instalación, **marca la casilla** “Add Python to PATH”.
+* 1.3 Espera a que termine la instalación.
+* 1.4 Verifica que esté instalado correctamente abriendo **PowerShell o CMD** y escribiendo:
 
    ```bash
    python --version
@@ -75,20 +75,20 @@ Puedes ejecutar el programa de dos maneras:
 
 #### Opción 1: Desde VS Code
 
-• Abre la carpeta del proyecto en **Visual Studio Code**.
-• Abre el archivo `aeropuerto.py`.
-• Haz clic en el botón **▶️ “Correr”** en la esquina superior derecha.
-• Espera a que se abra la ventana del programa.
+* Abre la carpeta del proyecto en **Visual Studio Code**.
+* Abre el archivo `aeropuerto.py`.
+* Haz clic en el botón **▶️ “Correr”** en la esquina superior derecha.
+* Espera a que se abra la ventana del programa.
 
 #### Opción 2: Desde PowerShell o CMD
 
-• Abre una terminal en la carpeta donde está tu archivo.
-• Escribe:
+* Abre una terminal en la carpeta donde está tu archivo.
+* Escribe:
 
    ```bash
    python aeropuerto.py
    ```
-• Presiona **Enter** y se ejecutará el programa.
+* Presiona **Enter** y se ejecutará el programa.
 
 ## Funcionamiento general
 
@@ -107,35 +107,35 @@ Puedes ejecutar el programa de dos maneras:
 4. **Comparación de Algoritmos:**
    Al cerrar la ventana del mapa, el sistema:
 
-   • Ejecuta **Bellman-Ford** y **Dijkstra**.
-   • Mide tiempos de ejecución.
-   • Muestra un mensaje comparando sus resultados.
-   • Advierte si existe un **ciclo negativo**.
+   * Ejecuta **Bellman-Ford** y **Dijkstra**.
+   * Mide tiempos de ejecución.
+   * Muestra un mensaje comparando sus resultados.
+   * Advierte si existe un **ciclo negativo**.
 
 ## Funcionalidades principales
 
-• Simulación de rutas de vuelo nacionales e internacionales.
-• Visualización gráfica del grafo con animación del recorrido.
-• Cálculo del **camino más corto** entre ciudades.
-• Detección y alerta de **ciclos negativos**.
-• Comparación de rendimiento entre **Bellman-Ford y Dijkstra**.
+* Simulación de rutas de vuelo nacionales e internacionales.
+* Visualización gráfica del grafo con animación del recorrido.
+* Cálculo del **camino más corto** entre ciudades.
+* Detección y alerta de **ciclos negativos**.
+* Comparación de rendimiento entre **Bellman-Ford y Dijkstra**.
 
 ## Interfaz gráfica
 
 El programa utiliza **Tkinter** y se compone de tres ventanas principales:
 
-• **Inicio:** Selección del tipo de vuelo (nacional o internacional)         
-• **Origen/Destino:** Elección de ciudades para el recorrido                         
-• **Mapa/Grafo:** Visualización del grafo, animación y comparación de algoritmos 
+* **Inicio:** Selección del tipo de vuelo (nacional o internacional)         
+* **Origen/Destino:** Elección de ciudades para el recorrido                         
+* **Mapa/Grafo:** Visualización del grafo, animación y comparación de algoritmos 
 
 
 ## Autores
 
 Proyecto académico desarrollado por:
 
-• Rubi Maria Cobos Ramos
-• Ingridh Maricela Gracia Flores
-• Veyra Maria Gutierrez Gomez
-• Jesus Emmanuel Lopez Zuñiga
-• Jennifer Elizabeth Yepez Lopez
+* Rubi Maria Cobos Ramos
+* Ingridh Maricela Gracia Flores
+* Veyra Maria Gutierrez Gomez
+* Jesus Emmanuel Lopez Zuñiga
+* Jennifer Elizabeth Yepez Lopez
 
