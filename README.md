@@ -37,10 +37,10 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
 
 ### 1. Instalar Python
 
-* 1.1 Descarga **Python 3.13** desde la página oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-* 1.2 Durante la instalación, **marca la casilla** “Add Python to PATH”.
-* 1.3 Espera a que termine la instalación.
-* 1.4 Verifica que esté instalado correctamente abriendo **PowerShell o CMD** y escribiendo:
+* Descarga **Python 3.13** desde la página oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* Durante la instalación, **marca la casilla** “Add Python to PATH”.
+* Espera a que termine la instalación.
+* Verifica que esté instalado correctamente abriendo **PowerShell o CMD** y escribiendo:
 
    ```bash
    python --version
@@ -48,13 +48,13 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
 
 ### 2. Instalar la biblioteca Pillow
 
-2.1 Abre una terminal en tu computadora (PowerShell o CMD).
-2.2 Copia y ejecuta el siguiente comando (tu ruta de instalación puede variar):
+* Abre una terminal en tu computadora (PowerShell o CMD).
+* Copia y ejecuta el siguiente comando (tu ruta de instalación puede variar):
 
    ```bash
    C:\Users\usuario1\AppData\Local\Programs\Python\Python313\python.exe -m pip install pillow
    ```
-2.3 Espera a que finalice la instalación.
+* Espera a que finalice la instalación.
    Si se instaló correctamente, verás un mensaje como:
 
    ```
@@ -62,10 +62,9 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
    ```
 ### 3. Archivos requeridos
 
-3.1 Guarda las siguientes imágenes en la **misma carpeta** donde tengas tu archivo `aeropuerto.py`:
-
-* `mapa_mexicoo.png`
-* `mapa_mundo.png`
+* Guarda las siguientes imágenes en la **misma carpeta** donde tengas tu archivo `aeropuerto.py`:
+   * `mapa_mexicoo.png`
+   * `mapa_mundo.png`
 
 > Si no existen las imágenes, el programa mostrará un mensaje de error y no cargará el mapa.
 
