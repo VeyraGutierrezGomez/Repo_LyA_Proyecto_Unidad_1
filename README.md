@@ -76,7 +76,7 @@ Puedes ejecutar el programa de dos maneras:
 
 * Abre la carpeta del proyecto en **Visual Studio Code**.
 * Abre el archivo `aeropuerto.py`.
-* Haz clic en el botón **▶️ “Correr”** en la esquina superior derecha.
+* Haz clic en el botón **▷ “Correr”** en la esquina superior derecha.
 * Espera a que se abra la ventana del programa.
 
 #### Opción 2: Desde PowerShell o CMD
