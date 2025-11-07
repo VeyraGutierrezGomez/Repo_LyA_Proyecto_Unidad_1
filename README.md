@@ -14,7 +14,7 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
 
 * Implementar el **algoritmo Bellman-Ford** con detección de **ciclos negativos**.
 * Comparar su funcionamiento y tiempos de ejecución con el algoritmo **Dijkstra**.
-* Simular una **red de aeropuertos** con diferentes costos (positivos y negativos).
+* Simular una **red de aeropuertos** con diferentes tiempos (positivos y negativos).
 * Visualizar gráficamente las rutas y el recorrido más corto.
 * Mostrar advertencias al detectar un ciclo negativo en el grafo.
 * Desarrollar una interfaz interactiva con selección de vuelo, origen y destino.
