@@ -37,8 +37,7 @@ Además, compara el rendimiento y exactitud de ambos algoritmos.
 
 ### 1. Instalar Python
 
-1.1 Descarga **Python 3.13** desde la página oficial:
-   👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+1.1 Descarga **Python 3.13** desde la página oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 1.2 Durante la instalación, **marca la casilla** “Add Python to PATH”.
 1.3 Espera a que termine la instalación.
 1.4 Verifica que esté instalado correctamente abriendo **PowerShell o CMD** y escribiendo:
